@@ -19,8 +19,7 @@ import { initializeApp } from "firebase/app";-->
  https://firebase.google.com/docs/web/setup#available-libraries-->
 
 
-  // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+  
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyA-oalwNPHX-ngDnC846QmoHnvMXUHHZEo",
@@ -32,8 +31,9 @@ const firebaseConfig = {
   appId: "1:344750310990:web:2daed79e0993b5c977a51f"
 };
 
-
-
+// Initialize Firebase
+//const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 <!--database code ends here-->    
   <script src="js/Player.js"></script>
