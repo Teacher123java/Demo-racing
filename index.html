@@ -12,9 +12,6 @@
 <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
 
-<!--TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries-->
-
 <!-- Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";-->
 
@@ -22,6 +19,8 @@ import { initializeApp } from "firebase/app";-->
  https://firebase.google.com/docs/web/setup#available-libraries-->
 
 <script>
+  // Initialize Firebase
+const app = initializeApp(firebaseConfig);
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyA-oalwNPHX-ngDnC846QmoHnvMXUHHZEo",
@@ -34,8 +33,6 @@ const firebaseConfig = {
 };
 
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 </script>
 
 <!--database code ends here-->    
