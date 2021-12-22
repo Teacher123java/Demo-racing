@@ -34,7 +34,7 @@ firebase.initializeApp(firebaseConfig);-->
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
-  const firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyB6lImyo3OGeEmh8V8H1cEVcbGFb16Bnxs",
     authDomain: "multiplayer-car-racing-g-17b7b.firebaseapp.com",
     databaseURL: "https://multiplayer-car-racing-g-17b7b-default-rtdb.firebaseio.com",
@@ -45,7 +45,8 @@ firebase.initializeApp(firebaseConfig);-->
   };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+  //const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig);
 </script>
 <!--database code ends here-->    
   </script>
